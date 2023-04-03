@@ -1,0 +1,53 @@
+.navbar {
+  width: 600px;
+  height: 50px;
+  border: 3px solid lightpink;
+  position: absolute;
+  left: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px lightpink;
+}
+a {
+  color: rgb(237, 132, 153);
+}
+a:hover {
+  color: pink;
+}
+a:active {
+  color: lightpink;
+}
+
+.form {
+  position: absolute;
+  top: 140px;
+  left: 305px;
+  width: 200px;
+  height: 300px;
+  border: 3px solid lightpink;
+  box-shadow: 2px 2px 5px lightpink;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2px;
+}
+
+.button {
+  background-color: white;
+  color: rgb(237, 132, 153);
+  border: 1px solid lightpink;
+  box-shadow: 1px 1px 3px lightpink;
+}
+.LoginText {
+  color: rgb(237, 132, 153);
+}
+.borderStyle {
+  border: 1px solid rgb(237, 132, 153);
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px rgb(237, 132, 153);
+}
